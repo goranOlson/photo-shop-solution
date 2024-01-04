@@ -1,6 +1,7 @@
 .cards {
   color: var(--white);
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   justify-content: center;
   flex-wrap: wrap;
@@ -10,7 +11,7 @@
 }
 
 .card {
-  width: 300px;
+  /* width: 300px; */
 }
 
 .card figure img {
@@ -27,4 +28,23 @@
   border: none;
   color: white;
   padding: 5px 10px;
+}
+
+@media screen and (max-width: 1020px) {
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      max-width: 700px;
+    }
+
+    .card {
+      width: 300px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .cards {
+      grid-template-columns: 1fr;
+      max-width: 320px;
+    }
 }
