@@ -1,1 +1,1 @@
-# photo-shop-solution
+# poster-shop-solution

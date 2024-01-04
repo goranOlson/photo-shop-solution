@@ -1,0 +1,17 @@
+.cards.large-cards {
+  margin-bottom: 4rem;
+}
+
+.card.large-card {
+  background-color: var(--white);
+  color: var(--black);
+  width: 466px;
+}
+
+.card.large-card .text {
+  color: var(--black);
+}
+
+.cards .info-container {
+  padding: 1rem;
+}
