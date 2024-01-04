@@ -15,3 +15,9 @@
 .cards .info-container {
   padding: 1rem;
 }
+
+@media screen and (max-width: 750px) {
+  .card.large-card {
+    width: auto;
+  }
+}
